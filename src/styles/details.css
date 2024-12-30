@@ -1,0 +1,43 @@
+.favourites-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    z-index: 1000;
+    color: #84ed13;
+}
+
+.msg {
+    margin: 10px 0px 10px 0px;
+    color: #f5c518;
+}
+
+
+.msg-button {
+    background-color: #ea1919;
+    color: #d2a2a2;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.rate-button:hover {
+    background-color: #da3030;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
