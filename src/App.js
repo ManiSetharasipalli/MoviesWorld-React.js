@@ -7,6 +7,7 @@ import Movie from './components/MovieDetails';
 import './styles/api_styles.css'
 
 const API_KEY = process.env.REACT_APP_API_KEY; 
+console.log(API_KEY);
 
 const App = () => {
   const [category, setCategory] = useState('movie/popular')
